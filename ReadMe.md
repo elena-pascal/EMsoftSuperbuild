@@ -48,7 +48,21 @@ Git verison 2.x is pretty much required.
 
 ## macOS/Linux Instructions ##
 
-1. Install your compiler tools
+1. 
+ + Install your compiler tools
+ + Install CMake on your system
+ + Install a Fortran compiler on your system
+ + Install Git on your system
+
+ If you start with a blank Ubuntu 20.04 system (for instance WSL or Docker) then you can do all this in one line:
+
+       apt-get update && apt-get install -y
+       libtbb-dev \
+       build-essential \
+       gfortran \
+       libblas-dev liblapack-dev \
+       cmake\
+       git
 2. Install CMake on your system
 3. Install a Fortran compiler on your system
 4. Install Git on your system
