@@ -63,11 +63,8 @@ Git verison 2.x is pretty much required.
        libblas-dev liblapack-dev \
        cmake\
        git
-2. Install CMake on your system
-3. Install a Fortran compiler on your system
-4. Install Git on your system
-1. Clone this repository onto your hard disk.
-2. open a terminal and invoke the following commands
+2. Clone this repository onto your hard disk.
+3. open a terminal and invoke the following commands
 
         cd EMsoftSuperbuild
         mkdir Debug
